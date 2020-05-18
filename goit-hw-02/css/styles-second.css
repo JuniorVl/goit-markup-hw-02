@@ -1,0 +1,137 @@
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+  --accent-color: #2196f3;
+  --secondary-background-color: #f5f4fa;
+}
+body {
+  font-family: Roboto;
+  font-style: normal;
+  color: var(--primary-color);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.footer {
+  background-color: #2f303a;
+}
+.logo-text {
+  font-family: Raleway;
+}
+.logo-text:visited {
+  color: #757575;
+}
+.mail {
+  color: #757575;
+  font-style: normal;
+}
+.nav {
+  letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.text-logo {
+  font-family: Raleway;
+  text-decoration: none;
+}
+.text-logo:visited {
+  color: var(--secondary-color);
+}
+.mail:visited {
+  color: var(--primary-color);
+}
+.mail:visited:focus,
+.mail:visited:hover {
+  color: var(--accent-color);
+}
+.link:visited {
+  color: var(--primary-color);
+}
+.link:visited:hover,
+.link:visited:focus {
+  color: var(--accent-color);
+}
+.first-word {
+  color: var(--accent-color);
+}
+.street {
+  color: var(--secondary-color);
+}
+address span {
+  font-weight: normal;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.6);
+}
+.title {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.category {
+  color: var(--primary-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
+.title:focus,
+.title:hover {
+  color: var(--accent-color);
+}
+.title:visited {
+  color: var(--primary-color);
+}
+.title:visited:focus,
+.title:visited:hover {
+  color: var(--accent-color);
+}
+.category:focus,
+.category:hover {
+  color: var(--accent-color);
+}
+.category:visited {
+  color: var(--primary-color);
+}
+.category:visited:focus,
+.category:visited:hover {
+  color: var(--accent-color);
+}
+.pseudo-button:focus,
+.pseudo-button:hover {
+  padding: 6px 22px;
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+}
+.pseudo-button {
+  padding: 6px 22px;
+  color: var(--primary-color);
+  background-color: var(--secondary-background-color);
+}
+.list {
+  margin: 0px;
+}
+.list li {
+  min-width: 29;
+  display: inline-block;
+  border-radius: 4px;
+}
+a {
+  text-decoration: none;
+}
+.slogan {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
